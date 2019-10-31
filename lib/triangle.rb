@@ -7,14 +7,12 @@ class Triangle
     @isosceles = isosceles
     @scalene = scalene
   end
-  
+    
+  class TriangleError < StandardError
 
+  end
     
-    class TriangleError < StandardError
-
-    end
-    
-    
+  def kind  
     
   end
   
