@@ -1,7 +1,9 @@
 class Triangle
   
   
-  def kind (equilateral, isosceles, scalene)
+  
+  
+  def kind 
     
     class TriangleError < StandardError
 
