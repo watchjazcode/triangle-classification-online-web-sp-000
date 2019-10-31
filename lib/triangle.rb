@@ -1,6 +1,6 @@
 class Triangle
   
-  attr_accessor :equilateral, :isosceles, :scalene
+  attr_accessor :kind
   
   def initialize(equilateral, isosceles, scalene)
     @equilateral = equilateral
